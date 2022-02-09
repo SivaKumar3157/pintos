@@ -403,6 +403,7 @@ locate_block_devices (void)
    otherwise the first block device in probe order of type
    ROLE. */
 static void
+/*sdksjd*/
 locate_block_device (enum block_type role, const char *name)
 {
   struct block *block = NULL;
